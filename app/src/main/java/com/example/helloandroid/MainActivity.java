@@ -23,6 +23,8 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
     }
+
+
 
     public void signInClick(View view){
         final String TAG = "signInClick";
